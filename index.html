@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-cloak>
+    <head>
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+        
+        <link rel="stylesheet" type="text/css" href="assets/css/custom/main.css"/>
+    </head>
+    <body>
+        <!--INICIO APP-->
+        <div class="container" ng-controller="LineCtrl">
+            <canvas id="bar" 
+                    class="chart chart-bar"
+                    chart-data="data" 
+                    chart-labels="labels"
+                    chart-series="series"> 
+            </canvas>
+        </div>
+        <!--FIN DE APP-->
+
+        <!--SCRIPTS ESTATICOS-->
+        <script type="text/javascript" src="assets/js/angular/angular.min.js"></script>
+        <script type="text/javascript" src="assets/js/angular/Chart.min.js"></script>
+        <script type="text/javascript" src="assets/js/angular/angular-chart.min.js"></script>
+
+        <!--SCRIPTS APP-->
+        <script type="text/javascript" src="app.js"></script>
+        <script type="text/javascript" src="controllers/controller.js"></script>
+    </body>
+</html>

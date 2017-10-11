@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'NeoSansStd Bold';
+    src: url(../../fonts/opentype/NeoSansStd-Bold.eot);
+    src: url(../../fonts/opentype/NeoSansStd-Bold.woff) format('woff'),
+        url(../../fonts/opentype/NeoSansStd-Bold.eot?#iefix) format('embedded-opentype'),
+        url(../../fonts/opentype/NeoSansStd-Bold.ttf) format('truetype');
+}
+
+
+@font-face {
+    font-family: 'NeoSansStd Regular';
+    src: url(../../fonts/opentype/NeoSansStd-Regular.eot);
+    src: url(../../fonts/opentype/NeoSansStd-Regular.woff) format('woff'),
+        url(../../fonts/opentype/NeoSansStd-Regular.eot?#iefix) format('embedded-opentype'),
+        url(../../fonts/opentype/NeoSansStd-Regular.ttf) format('truetype');
+}
